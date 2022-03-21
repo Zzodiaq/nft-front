@@ -1,0 +1,197 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    
+    background-color: #0D192B;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card{
+    position: relative;
+    
+    background-color: #14253D;
+    margin: 10% auto;
+    width: 350px;
+    height: 620px;
+    border-radius: 15px;
+    
+}
+
+.h1{
+    color: white;
+    position: absolute;
+    text-align: left;
+    }
+
+p{
+
+    font-size: 18px;
+    
+
+    
+}
+
+
+
+
+.container-1{
+    width: 100%;
+    display: block;
+    position: absolute;
+    margin-top: 95%;
+   
+}
+
+.container-2{
+    margin: 0 20px;
+    width: 93%;
+    height: 200px;
+    position: relative;
+    text-align: left;
+}
+
+.equili{
+    
+    border-radius: 15px;
+    display: block;
+    margin: 20px;
+    position: absolute;
+    width: 310px;
+    height: 305px;
+}
+
+
+.para{
+   color: #8BACDA;
+    position: absolute;
+    
+}
+
+.cc{
+
+    color: white;
+}
+
+.indice{
+
+    color: #00FFF7;
+}
+
+
+.move{
+
+    margin-left: 40% ;
+}
+
+
+.img-1{
+margin-right: 10px;
+float: left;
+}
+
+.img-2{
+    position: absolute;
+    float: left;
+    margin-top: -40px;
+    margin-left: 215px;
+}
+
+.img-3{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    float: left;
+    border: 1px solid white;
+    border-radius: 50%;
+    
+}
+
+.imgfloat{
+
+    text-align: left;
+}
+
+.crea{
+
+    color: #8BACDA;
+}
+
+.jule{
+    color: white;
+}
+
+hr{
+    width: 93%;
+    margin-left: 2%;
+    border: none;
+    border-top: 1px solid #2F415B;
+    color: #2F415B;
+    text-align: center;
+    height: 5px;
+  
+}
+
+.container {
+    position: relative;
+    
+    
+  }
+
+  .eye{
+    opacity: 0;
+    margin-top: 150px;
+    margin-left: 150px;
+    position: absolute;
+    transition: .5s ease;
+
+  }
+  
+
+  .middle {
+    border-radius: 15px;
+    margin: 20px;
+    width: 310px;
+    height: 305px;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute; 
+    background-color: #00FFF7;
+
+  }
+
+  .container:hover .eye{
+    opacity: 1;
+  }
+  
+  .container:hover .equili {
+    opacity: 1;
+    
+  }
+  
+  .container:hover .middle {
+    opacity: 0.5;
+    
+  }
+
+  .box{
+    position: relative;
+    margin: 10% auto 10%;
+    width: 350px;
+    height: 620px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 30px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  a{
+      text-decoration: none;
+  }
+
+  .footer{
+
+    color: #8BACDA;
+  }
+
+  
